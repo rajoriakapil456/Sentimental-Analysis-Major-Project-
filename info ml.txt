@@ -1,0 +1,14 @@
+---- Different files used and their meanings ----
+
+a1_RestaurantReviews_HistoricDump.tsv : file given by the restaurant with reviews for which negatives and positives already classified. It is having 900 rows and 2 columns.
+
+a2_RestaurantReviews_FreshDump.tsv : file given by restaurant with reviews for which prediction needs to be done. It is having 100 rows and 1 column.
+
+c1_BoW_Sentiment_Model.pkl : Binary file made using python which contains the bag of words dictionary. We will use this file later for prediction.
+
+c2_Classifier_Sentiment_Model : Binary file made using pyhon which contains training dataset. We will use this file later for prediction.
+
+c3_Predicted_Sentiments_Fresh_Dump.tsv : file with predicted sentiments for fresh reviews.
+
+
+
